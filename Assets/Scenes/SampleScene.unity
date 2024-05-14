@@ -163,7 +163,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &14572897
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,7 +210,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &15095541
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,7 +257,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &15346960
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,7 +432,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &36275048
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,7 +479,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &59530656
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,7 +654,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &64894389
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,7 +701,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &67367192
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,7 +748,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &74148309
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,7 +871,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &113870198
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,7 +918,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &115014773
 GameObject:
   m_ObjectHideFlags: 0
@@ -945,7 +965,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &116547301
 GameObject:
   m_ObjectHideFlags: 0
@@ -990,7 +1012,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &119271869
 GameObject:
   m_ObjectHideFlags: 0
@@ -1035,7 +1059,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &120968237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,7 +1106,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &128435480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1125,7 +1153,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &131666268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,7 +1200,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &134646480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1343,7 +1375,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &158971776
 GameObject:
   m_ObjectHideFlags: 0
@@ -1388,7 +1422,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &159937488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1433,7 +1469,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &170339197
 GameObject:
   m_ObjectHideFlags: 0
@@ -1478,7 +1516,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &179408466
 GameObject:
   m_ObjectHideFlags: 0
@@ -1523,7 +1563,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &184388108
 GameObject:
   m_ObjectHideFlags: 0
@@ -1608,7 +1650,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &214213527
 GameObject:
   m_ObjectHideFlags: 0
@@ -1781,7 +1825,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &235641531
 GameObject:
   m_ObjectHideFlags: 0
@@ -1826,7 +1872,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &250975781
 GameObject:
   m_ObjectHideFlags: 0
@@ -2034,7 +2082,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &279522104
 GameObject:
   m_ObjectHideFlags: 0
@@ -2079,7 +2129,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &280643146
 GameObject:
   m_ObjectHideFlags: 0
@@ -2124,7 +2176,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &282616066
 GameObject:
   m_ObjectHideFlags: 0
@@ -2169,7 +2223,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &290850139
 GameObject:
   m_ObjectHideFlags: 0
@@ -2214,7 +2270,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &296287514
 GameObject:
   m_ObjectHideFlags: 0
@@ -2259,7 +2317,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &310802953
 GameObject:
   m_ObjectHideFlags: 0
@@ -2467,7 +2527,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &355663301
 GameObject:
   m_ObjectHideFlags: 0
@@ -2512,7 +2574,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &369876731
 GameObject:
   m_ObjectHideFlags: 0
@@ -2557,7 +2621,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &375988213
 GameObject:
   m_ObjectHideFlags: 0
@@ -2602,7 +2668,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &378866437
 GameObject:
   m_ObjectHideFlags: 0
@@ -2647,7 +2715,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2813,7 +2883,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &419137150
 GameObject:
   m_ObjectHideFlags: 0
@@ -2986,7 +3058,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &426726669
 GameObject:
   m_ObjectHideFlags: 0
@@ -3031,7 +3105,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &430874177
 GameObject:
   m_ObjectHideFlags: 0
@@ -3076,7 +3152,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &438465145
 GameObject:
   m_ObjectHideFlags: 0
@@ -3121,7 +3199,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &448205990
 GameObject:
   m_ObjectHideFlags: 0
@@ -3166,7 +3246,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &453100132
 GameObject:
   m_ObjectHideFlags: 0
@@ -3211,7 +3293,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &463268120
 GameObject:
   m_ObjectHideFlags: 0
@@ -3256,7 +3340,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &496438136
 GameObject:
   m_ObjectHideFlags: 0
@@ -3337,7 +3423,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &512677926
 GameObject:
   m_ObjectHideFlags: 0
@@ -3510,7 +3598,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &543717361
 GameObject:
   m_ObjectHideFlags: 0
@@ -3555,7 +3645,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &578141900
 GameObject:
   m_ObjectHideFlags: 0
@@ -3600,7 +3692,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &586935351
 GameObject:
   m_ObjectHideFlags: 0
@@ -3773,7 +3867,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &598673273
 GameObject:
   m_ObjectHideFlags: 0
@@ -3946,7 +4042,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &632498171
 GameObject:
   m_ObjectHideFlags: 0
@@ -4158,7 +4256,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &662094766
 GameObject:
   m_ObjectHideFlags: 0
@@ -4331,7 +4431,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &676622413
 GameObject:
   m_ObjectHideFlags: 0
@@ -4632,7 +4734,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &701253749
 GameObject:
   m_ObjectHideFlags: 0
@@ -4677,7 +4781,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &706804126
 GameObject:
   m_ObjectHideFlags: 0
@@ -4722,7 +4828,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &746252849
 GameObject:
   m_ObjectHideFlags: 0
@@ -4767,7 +4875,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!4 &757519699 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
@@ -4945,7 +5055,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &787957081
 GameObject:
   m_ObjectHideFlags: 0
@@ -4990,7 +5102,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &798160126
 GameObject:
   m_ObjectHideFlags: 0
@@ -5035,7 +5149,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &798725484
 GameObject:
   m_ObjectHideFlags: 0
@@ -5247,7 +5363,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &802352807
 GameObject:
   m_ObjectHideFlags: 0
@@ -5548,7 +5666,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &829865991
 GameObject:
   m_ObjectHideFlags: 0
@@ -5593,7 +5713,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -5687,7 +5809,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &848127805
 GameObject:
   m_ObjectHideFlags: 0
@@ -5768,7 +5892,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &911316221
 GameObject:
   m_ObjectHideFlags: 0
@@ -5856,7 +5982,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &944014642
 GameObject:
   m_ObjectHideFlags: 0
@@ -5901,7 +6029,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &960513525
 GameObject:
   m_ObjectHideFlags: 0
@@ -6074,7 +6204,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &978046037
 GameObject:
   m_ObjectHideFlags: 0
@@ -6247,7 +6379,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &995602081
 GameObject:
   m_ObjectHideFlags: 0
@@ -6292,7 +6426,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1001095770
 GameObject:
   m_ObjectHideFlags: 0
@@ -6337,7 +6473,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1004254033
 GameObject:
   m_ObjectHideFlags: 0
@@ -6382,7 +6520,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1009232592
 GameObject:
   m_ObjectHideFlags: 0
@@ -6555,7 +6695,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1010711823
 GameObject:
   m_ObjectHideFlags: 0
@@ -6600,7 +6742,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1028261771
 GameObject:
   m_ObjectHideFlags: 0
@@ -6645,7 +6789,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1076554547
 GameObject:
   m_ObjectHideFlags: 0
@@ -6690,7 +6836,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1109497213
 GameObject:
   m_ObjectHideFlags: 0
@@ -7004,7 +7152,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1129979968
 GameObject:
   m_ObjectHideFlags: 0
@@ -7177,7 +7327,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1142525823
 GameObject:
   m_ObjectHideFlags: 0
@@ -7222,7 +7374,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1163502254
 GameObject:
   m_ObjectHideFlags: 0
@@ -7267,7 +7421,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1173062131
 GameObject:
   m_ObjectHideFlags: 0
@@ -7312,7 +7468,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1178319858
 GameObject:
   m_ObjectHideFlags: 0
@@ -7357,7 +7515,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1186375001
 GameObject:
   m_ObjectHideFlags: 0
@@ -7530,7 +7690,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1234322137
 GameObject:
   m_ObjectHideFlags: 0
@@ -7575,7 +7737,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1237535145
 GameObject:
   m_ObjectHideFlags: 0
@@ -7620,7 +7784,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1238707937
 GameObject:
   m_ObjectHideFlags: 0
@@ -7665,7 +7831,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1251447084
 GameObject:
   m_ObjectHideFlags: 0
@@ -7710,7 +7878,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1265058477
 GameObject:
   m_ObjectHideFlags: 0
@@ -7798,7 +7968,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1279895907
 GameObject:
   m_ObjectHideFlags: 0
@@ -7843,7 +8015,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1281230201
 GameObject:
   m_ObjectHideFlags: 0
@@ -7888,7 +8062,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1320244933
 GameObject:
   m_ObjectHideFlags: 0
@@ -7933,7 +8109,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1322640877
 GameObject:
   m_ObjectHideFlags: 0
@@ -7978,7 +8156,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1327759203
 GameObject:
   m_ObjectHideFlags: 0
@@ -8151,7 +8331,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1346216134
 GameObject:
   m_ObjectHideFlags: 0
@@ -8232,7 +8414,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1361362118
 GameObject:
   m_ObjectHideFlags: 0
@@ -8277,7 +8461,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1372505873
 GameObject:
   m_ObjectHideFlags: 0
@@ -8322,7 +8508,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1388141200
 GameObject:
   m_ObjectHideFlags: 0
@@ -8367,7 +8555,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1398604240
 GameObject:
   m_ObjectHideFlags: 0
@@ -8516,7 +8706,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1433111479
 GameObject:
   m_ObjectHideFlags: 0
@@ -8561,7 +8753,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1495591528
 GameObject:
   m_ObjectHideFlags: 0
@@ -8606,7 +8800,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1502233180
 GameObject:
   m_ObjectHideFlags: 0
@@ -8651,7 +8847,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1504764228
 GameObject:
   m_ObjectHideFlags: 0
@@ -8696,7 +8894,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1512958809
 GameObject:
   m_ObjectHideFlags: 0
@@ -8741,7 +8941,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1559015393
 GameObject:
   m_ObjectHideFlags: 0
@@ -8786,7 +8988,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1001 &1560608079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8801,15 +9005,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.2
+      value: 38.45
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.74
+      value: 1.17
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.5
+      value: 31.71
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9008,7 +9212,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1596236433
 GameObject:
   m_ObjectHideFlags: 0
@@ -9053,7 +9259,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1606373720
 GameObject:
   m_ObjectHideFlags: 0
@@ -9098,7 +9306,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1638616839
 GameObject:
   m_ObjectHideFlags: 0
@@ -9143,7 +9353,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1666360454
 GameObject:
   m_ObjectHideFlags: 0
@@ -9188,7 +9400,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1668964809
 GameObject:
   m_ObjectHideFlags: 0
@@ -9399,7 +9613,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1706674499
 GameObject:
   m_ObjectHideFlags: 0
@@ -9444,7 +9660,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1733807869
 GameObject:
   m_ObjectHideFlags: 0
@@ -9489,7 +9707,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1746021631
 GameObject:
   m_ObjectHideFlags: 0
@@ -9534,7 +9754,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1755053467
 GameObject:
   m_ObjectHideFlags: 0
@@ -9579,7 +9801,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1825179808
 GameObject:
   m_ObjectHideFlags: 0
@@ -9667,7 +9891,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1899476225
 GameObject:
   m_ObjectHideFlags: 0
@@ -9712,7 +9938,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1901637636
 GameObject:
   m_ObjectHideFlags: 0
@@ -9757,7 +9985,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1911804014
 GameObject:
   m_ObjectHideFlags: 0
@@ -9930,7 +10160,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1927119840
 GameObject:
   m_ObjectHideFlags: 0
@@ -10103,7 +10335,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1933955433
 GameObject:
   m_ObjectHideFlags: 0
@@ -10404,7 +10638,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1972444252
 GameObject:
   m_ObjectHideFlags: 0
@@ -10449,7 +10685,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &1991251557
 GameObject:
   m_ObjectHideFlags: 0
@@ -10494,7 +10732,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &2007776804
 GameObject:
   m_ObjectHideFlags: 0
@@ -10539,7 +10779,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &2012374635
 GameObject:
   m_ObjectHideFlags: 0
@@ -10584,7 +10826,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &2013921134
 GameObject:
   m_ObjectHideFlags: 0
@@ -10757,7 +11001,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &2026110507
 GameObject:
   m_ObjectHideFlags: 0
@@ -10910,7 +11156,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &2048315331
 GameObject:
   m_ObjectHideFlags: 0
@@ -10955,7 +11203,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &2050761557 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4459864851310106424, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
@@ -11049,7 +11299,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &2071115928
 GameObject:
   m_ObjectHideFlags: 0
@@ -11094,7 +11346,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1 &2124007776
 GameObject:
   m_ObjectHideFlags: 0
@@ -11174,7 +11428,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c5e12b5f6eda34b947515759499415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsInsidePlayerFov: 0
+  IsInsidePlayerFOV: 0
+  IsInsidePlayerLOS: 0
+  hidePossibilityPercentage: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

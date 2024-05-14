@@ -1,17 +1,54 @@
+using System;
 using UnityEngine;
 
 public class HidePoint : MonoBehaviour
 {
-    public bool IsInsidePlayerFov = false;
+    public bool IsInsidePlayerFOV = false;
+    public bool IsInsidePlayerLOS = false;
 
-    public void SetInsidePlayerFov(bool isInsidePlayerFov)
+    [Range(0f, 100f)]
+    public float HidePossibilityPercentage;
+    private const float hidePossibilityPercentageMax = 100;
+
+    public void SetHidePossibilityPercentage(float percentage)
     {
-        this.IsInsidePlayerFov = isInsidePlayerFov;
+        HidePossibilityPercentage = percentage;
+    }
+
+    private void Update()
+    {
+        if (IsInsidePlayerFOV)
+        {
+            HidePossibilityPercentage = 0;
+        }
+        else
+        {
+            if(!IsInsidePlayerLOS)
+            {
+                HidePossibilityPercentage = hidePossibilityPercentageMax;
+            }
+            else
+            {
+                HidePossibilityPercentage = 20;
+            }
+           
+        }
     }
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = IsInsidePlayerFov ? Color.red : Color.green;
+        Gizmos.color = Color.Lerp(Color.red,Color.green, HidePossibilityPercentage / hidePossibilityPercentageMax);
         Gizmos.DrawSphere(transform.position, 0.5f);
     }
+
+    public void SetInsidePlayerFOV(bool insidePlayerFOV)
+    {
+        IsInsidePlayerFOV = insidePlayerFOV;
+    }
+
+    public void SetInsidePlayerLOS(bool insidePlayerLOS)
+    {
+        IsInsidePlayerLOS = insidePlayerLOS;
+    }
+
 }

@@ -34,61 +34,80 @@ public class HidePointManager : MonoBehaviour
 
         for (int i = 0; i < hidePoints.Count; i++)
         {
-            ValidateFieldOfView(hidePoints[i], playerTransform);
+            ValidateForPlayerFOV(hidePoints[i], playerTransform);
+
+            ValidateForPlayerLOS(hidePoints[i], playerTransform);
         }
     }
 
-    private void ValidateFieldOfView(HidePoint hidePoint, Transform playerTransform)
+    private void ValidateForPlayerFOV(HidePoint hidePoint, Transform playerTransform)
     {
         Vector3 directionToCollider = hidePoint.transform.position - playerTransform.position;
         float dotProduct = Vector3.Dot(playerTransform.forward, directionToCollider.normalized);
 
-        hidePoint.SetInsidePlayerFov(dotProduct > fovDotThreshold);
+        hidePoint.SetInsidePlayerFOV(dotProduct > fovDotThreshold);
     }
 
-    private bool IsInPlayerLOS(HidePoint hidePoint, Transform playerTransform)
+    private void ValidateForPlayerLOS(HidePoint hidePoint, Transform playerTransform)
     {
+        //No need extra Calc Skip Thsi test ,For Performance 
+        if (hidePoint.IsInsidePlayerFOV) return;
+
         Vector3 directionToPlayer = playerTransform.position - hidePoint.transform.position;
         float distanceToPlayer = directionToPlayer.magnitude; // Use magnitude instead of Vector3.Distance for performance
 
-        RaycastHit hit;
-
         // Perform a raycast from the hide point towards the player
-        if (Physics.Raycast(hidePoint.transform.position, directionToPlayer.normalized, out hit, distanceToPlayer))
+        if (Physics.Raycast(hidePoint.transform.position, directionToPlayer.normalized, out RaycastHit hit, distanceToPlayer))
         {
             // Check if the raycast hit the player or any obstacle between the hide point and the player
             if (hit.collider != null && hit.collider.CompareTag("Player"))
             {
                 // The player is in line of sight
-                return true;
+                hidePoint.IsInsidePlayerLOS = true;
+                Debug.DrawLine(hidePoint.transform.position, playerTransform.position, Color.red);
+            }
+            else
+            {
+                // Something else was hit (obstacle)
+                hidePoint.IsInsidePlayerLOS = false;
+                Debug.DrawLine(hidePoint.transform.position, hit.point, Color.blue);
             }
         }
-
-        // Player is not in line of sight
-        return false;
-    }
-
-    public HidePoint GetRandomNotAffectedHidePoint()
-    {
-        return hidePoints.Where(p => !p.IsInsidePlayerFov).FirstOrDefault();
+        else
+        {
+            // No hit, meaning no obstacles between hide point and player
+            hidePoint.IsInsidePlayerLOS = false;
+            Debug.DrawLine(hidePoint.transform.position, playerTransform.position, Color.green);
+        }
     }
 
     public HidePoint GetNearestNotAffectedHidePoint(Vector3 position)
     {
-        HidePoint nearHidePoint = hidePoints
-        .Where(hidePoint => !hidePoint.IsInsidePlayerFov) // Filter out hide points that are inside player FOV
-        .OrderBy(hidePoint => Vector3.Distance(hidePoint.transform.position, position)) // Order by distance to the given position
-        .FirstOrDefault();
+        HidePoint nearestHidePoint = null;
+        float nearestDistance = float.MaxValue;
 
-        if (nearHidePoint != null)
+        foreach (HidePoint hidePoint in hidePoints)
         {
-            return nearHidePoint;
+            if (hidePoint.HidePossibilityPercentage >= 90)
+            {
+                float distance = Vector3.Distance(hidePoint.transform.position, position);
+                if (distance < nearestDistance)
+                {
+                    nearestHidePoint = hidePoint;
+                    nearestDistance = distance;
+                }
+            }
+        }
+
+        if (nearestHidePoint != null)
+        {
+            return nearestHidePoint;
         }
         else
         {
-            Debug.LogError("No Hide Point Found");
+            Debug.LogWarning("No Hide Point Found");
             return null;
         }
-        
     }
+
 }

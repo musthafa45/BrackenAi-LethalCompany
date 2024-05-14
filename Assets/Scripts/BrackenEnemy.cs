@@ -13,6 +13,7 @@ public class BrackenEnemy : MonoBehaviour
 
     [Header("Speed For Various States")]
     [SerializeField] private float brackenFollowMoveSpeed = 10;
+    [SerializeField] private float brackenHideMoveSpeed = 25;
     [SerializeField] private float brackenRetreatMoveSpeed = 10;
     [SerializeField] private float brackenAgroMoveSpeed = 20;
     [Space]
@@ -28,6 +29,7 @@ public class BrackenEnemy : MonoBehaviour
     private Transform target; // Represents Player
     private Vector3 brackenSpawnPosition; // Spawning Position At Start
 
+    private HidePoint hidePoint;
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -81,7 +83,13 @@ public class BrackenEnemy : MonoBehaviour
 
     private void HandleHideLogics()
     {
-        
+        hidePoint = HidePointManager.Instance.GetNearestNotAffectedHidePoint(transform.position);
+
+        if(hidePoint != null)
+        {
+            agent.SetDestination(hidePoint.transform.position);
+            agent.speed = brackenHideMoveSpeed;
+        }
     }
 
     private void HandleFollowLogics()
