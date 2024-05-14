@@ -2,19 +2,21 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.AI;
 
+[RequireComponent(typeof(BrackenBrain))]
 public class BrackenEnemy : MonoBehaviour
 {
     public enum BrackenStates
     {
-        Hunt,Retreat,Agro
+        Follow,Hide,Retreat,Agro
     }
+
     [Header("Speed For Various States")]
-    [SerializeField] private float brackenHuntMoveSpeed = 10;
+    [SerializeField] private float brackenFollowMoveSpeed = 10;
     [SerializeField] private float brackenRetreatMoveSpeed = 10;
     [SerializeField] private float brackenAgroMoveSpeed = 20;
     [Space]
     [Header("DistanceToKeep For Various States")]
-    [SerializeField] private float distanceToKeepForHunt = 10f;
+    [SerializeField] private float distanceToKeepForFollow = 10f;
     [SerializeField] private float distanceToKeepForRetreat = 10f;
     [SerializeField] private float distanceToKeepForAgro = 2f;
 
@@ -51,12 +53,14 @@ public class BrackenEnemy : MonoBehaviour
             return;
         }
 
-
-        switch(brackenStates)
+        switch (brackenStates)
         {
-            case BrackenStates.Hunt:
+            case BrackenStates.Follow:
 
-                HandleHuntLogics();
+                HandleFollowLogics();
+
+                break;
+            case BrackenStates.Hide:
 
                 break;
             case BrackenStates.Retreat:
@@ -71,28 +75,24 @@ public class BrackenEnemy : MonoBehaviour
                 break;
         }
 
-       
     }
 
-    private void HandleHuntLogics()
+    private void HandleFollowLogics()
     {
-        if (IsPlayerBehind(GetDotBetWeen(target)))
+        if(GetDistance(transform.position, target.position) > distanceToKeepForFollow)
         {
-            // Bracken IsBehind Player So Can Follow
             agent.SetDestination(target.position);
-            agent.stoppingDistance = distanceToKeepForHunt;
-            agent.speed = brackenHuntMoveSpeed;
         }
         else
         {
-            // Bracken is not behind the player, so it needs to hide
+            agent.SetDestination(transform.position);
         }
+        agent.speed = brackenFollowMoveSpeed;
     }
 
     private void HandleRetreatLogics()
     {
-        agent.SetDestination(IsPlayerInsideKeepDistance(distanceToKeepForRetreat) ? brackenSpawnPosition : transform.position);
-        agent.stoppingDistance = distanceToKeepForRetreat;
+        agent.SetDestination(GetDistance(transform.position,target.position) < distanceToKeepForRetreat ? brackenSpawnPosition : transform.position);
         agent.speed = brackenRetreatMoveSpeed;
 
         transform.LookAt(target);
@@ -101,14 +101,12 @@ public class BrackenEnemy : MonoBehaviour
     private void HandleAgroLogics()
     {
         agent.SetDestination(target.position);
-        agent.stoppingDistance = distanceToKeepForAgro;
         agent.speed = brackenAgroMoveSpeed;
     }
 
-    private bool IsPlayerInsideKeepDistance(float distanceToKeep)
+    private float GetDistance(Vector3 pointA,Vector3 pointB)
     {
-        float distanceBtBrackenToPlayer = Vector3.Distance(transform.position, target.position);
-        return distanceBtBrackenToPlayer < distanceToKeep;
+        return Vector3.Distance(pointA, pointB);
     }
 
     private float GetDotBetWeen(Transform target)
@@ -118,29 +116,6 @@ public class BrackenEnemy : MonoBehaviour
     }
     private bool IsPlayerBehind(float dotValue)
     {
-        return dotValue >= 0f;
+        return dotValue > -0.5f;
     }
-
-    private Collider[] GetBoxCollidersNearby(Transform center, float radius = 10f)
-    {
-        Collider[] colliders = Physics.OverlapSphere(center.position, radius);
-
-        return colliders.Where(c => c.GetType() == typeof(BoxCollider)).ToArray();
-    }
-
-    private Collider[] GetBoxCollidersNotInPlayerFOV(Collider[] playerNearColliders, Transform playerTransform)
-    {
-        Collider[] collidersNotInFOV = playerNearColliders.Where(collider =>
-        {
-            Vector3 directionToCollider = collider.transform.position - playerTransform.position;
-
-            float dotProduct = Vector3.Dot(playerTransform.forward, directionToCollider.normalized);
-
-            return dotProduct < 0f;
-
-        }).ToArray();
-
-        return collidersNotInFOV;
-    }
-
 }
