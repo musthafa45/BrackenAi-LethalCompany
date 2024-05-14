@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.AI;
@@ -62,6 +63,7 @@ public class BrackenEnemy : MonoBehaviour
                 break;
             case BrackenStates.Hide:
 
+                HandleHideLogics();
                 break;
             case BrackenStates.Retreat:
 
@@ -75,6 +77,11 @@ public class BrackenEnemy : MonoBehaviour
                 break;
         }
 
+    }
+
+    private void HandleHideLogics()
+    {
+        
     }
 
     private void HandleFollowLogics()

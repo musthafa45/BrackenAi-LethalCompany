@@ -9,7 +9,6 @@ public class HidePointManager : MonoBehaviour
 
     [Range(-1f, 1f)]
     [SerializeField] private float fovDotThreshold = -0.5f;
-    [SerializeField] private float minDistanceFromPlayer = 5f;
 
     [SerializeField] private Transform playerTransform;
 
@@ -44,14 +43,7 @@ public class HidePointManager : MonoBehaviour
         Vector3 directionToCollider = hidePoint.transform.position - playerTransform.position;
         float dotProduct = Vector3.Dot(playerTransform.forward, directionToCollider.normalized);
 
-        hidePoint.SetInsidePlayerFov(dotProduct > fovDotThreshold
-                                                  && IsInPlayerLOS(hidePoint, playerTransform)
-                                                  && IsNearToThePlayer(hidePoint, playerTransform));
-    }
-
-    private bool IsNearToThePlayer(HidePoint hidePoint, Transform playerTransform)
-    {
-       return Vector3.Distance(hidePoint.transform.position, playerTransform.position) <= minDistanceFromPlayer;
+        hidePoint.SetInsidePlayerFov(dotProduct > fovDotThreshold);
     }
 
     private bool IsInPlayerLOS(HidePoint hidePoint, Transform playerTransform)
