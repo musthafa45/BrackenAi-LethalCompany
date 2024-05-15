@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+
 public class HidePointManager : MonoBehaviour
 {
     public static HidePointManager Instance { get; private set; }
@@ -11,7 +12,7 @@ public class HidePointManager : MonoBehaviour
     [SerializeField] private float fovDotThreshold = -0.5f;
 
     [SerializeField] private Transform playerTransform;
-
+    [SerializeField] private float minDistanceFromHidePoint = 5f;
     private List<HidePoint> hidePoints = new List<HidePoint>();
 
     private void Awake()
@@ -37,6 +38,8 @@ public class HidePointManager : MonoBehaviour
             ValidateForPlayerFOV(hidePoints[i], playerTransform);
 
             ValidateForPlayerLOS(hidePoints[i], playerTransform);
+
+            ValidateForPlayerDistance(hidePoints[i], playerTransform);
         }
     }
 
@@ -45,7 +48,7 @@ public class HidePointManager : MonoBehaviour
         Vector3 directionToCollider = hidePoint.transform.position - playerTransform.position;
         float dotProduct = Vector3.Dot(playerTransform.forward, directionToCollider.normalized);
 
-        hidePoint.SetInsidePlayerFOV(dotProduct > fovDotThreshold);
+        hidePoint.IsInsidePlayerFOV = dotProduct > fovDotThreshold;
     }
 
     private void ValidateForPlayerLOS(HidePoint hidePoint, Transform playerTransform)
@@ -79,6 +82,13 @@ public class HidePointManager : MonoBehaviour
             hidePoint.IsInsidePlayerLOS = false;
             Debug.DrawLine(hidePoint.transform.position, playerTransform.position, Color.green);
         }
+    }
+
+    private void ValidateForPlayerDistance(HidePoint hidePoint, Transform playerTransform)
+    {
+        Vector3 direction = hidePoint.transform.position - playerTransform.position;
+
+        hidePoint.IsInsidePlayerDistance = direction.magnitude < minDistanceFromHidePoint;
     }
 
     public HidePoint GetNearestNotAffectedHidePoint(Vector3 position)

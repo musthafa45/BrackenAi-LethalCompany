@@ -5,15 +5,11 @@ public class HidePoint : MonoBehaviour
 {
     public bool IsInsidePlayerFOV = false;
     public bool IsInsidePlayerLOS = false;
+    public bool IsInsidePlayerDistance = false;
 
     [Range(0f, 100f)]
     public float HidePossibilityPercentage;
     private const float hidePossibilityPercentageMax = 100;
-
-    public void SetHidePossibilityPercentage(float percentage)
-    {
-        HidePossibilityPercentage = percentage;
-    }
 
     private void Update()
     {
@@ -25,11 +21,19 @@ public class HidePoint : MonoBehaviour
         {
             if(!IsInsidePlayerLOS)
             {
-                HidePossibilityPercentage = hidePossibilityPercentageMax;
+                if(!IsInsidePlayerDistance)
+                {
+                    HidePossibilityPercentage = hidePossibilityPercentageMax;
+                }
+                else
+                {
+                    HidePossibilityPercentage = 10;
+                }
+                
             }
             else
             {
-                HidePossibilityPercentage = 20;
+                HidePossibilityPercentage = 30;
             }
            
         }

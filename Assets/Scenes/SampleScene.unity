@@ -165,7 +165,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &14572897
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,7 +213,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &15095541
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,7 +261,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &15346960
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,7 +367,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 54.5, y: 0, z: -1.9092002}
-  m_LocalScale: {x: 16.433653, y: 2.38, z: 10.333154}
+  m_LocalScale: {x: 16.433653, y: 12.33, z: 10.333154}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -434,7 +437,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &36275048
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,7 +485,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &59530656
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,7 +591,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 24.9, y: 0, z: -6.5092}
-  m_LocalScale: {x: 7.094408, y: 2.38, z: 5.7741656}
+  m_LocalScale: {x: 7.094408, y: 12.33, z: 5.7741656}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -656,7 +661,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &64894389
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,7 +709,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &67367192
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,7 +757,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &74148309
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,7 +881,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &113870198
 GameObject:
   m_ObjectHideFlags: 0
@@ -920,7 +929,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &115014773
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,7 +977,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &116547301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1014,7 +1025,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &119271869
 GameObject:
   m_ObjectHideFlags: 0
@@ -1061,7 +1073,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &120968237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,7 +1121,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &128435480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1155,7 +1169,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &131666268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,7 +1217,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &134646480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,7 +1323,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 65.2, y: 0, z: -44.5092}
-  m_LocalScale: {x: 16.433653, y: 2.38, z: 5.4858713}
+  m_LocalScale: {x: 16.433653, y: 12.33, z: 5.4858713}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -1377,7 +1393,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &158971776
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,7 +1441,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &159937488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,7 +1489,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &170339197
 GameObject:
   m_ObjectHideFlags: 0
@@ -1518,7 +1537,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &179408466
 GameObject:
   m_ObjectHideFlags: 0
@@ -1565,7 +1585,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &184388108
 GameObject:
   m_ObjectHideFlags: 0
@@ -1652,7 +1673,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &214213527
 GameObject:
   m_ObjectHideFlags: 0
@@ -1757,7 +1779,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 53.261, y: 0, z: -36.7092}
-  m_LocalScale: {x: 5.955942, y: 2.38, z: 4.7595863}
+  m_LocalScale: {x: 5.955942, y: 12.33, z: 4.7595863}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -1827,7 +1849,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &235641531
 GameObject:
   m_ObjectHideFlags: 0
@@ -1874,7 +1897,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &250975781
 GameObject:
   m_ObjectHideFlags: 0
@@ -1979,7 +2003,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 54.5, y: 0, z: 10.7367}
-  m_LocalScale: {x: 16.433653, y: 2.38, z: 5.6253686}
+  m_LocalScale: {x: 16.433653, y: 12.33, z: 5.6253686}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -2084,7 +2108,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &279522104
 GameObject:
   m_ObjectHideFlags: 0
@@ -2131,7 +2156,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &280643146
 GameObject:
   m_ObjectHideFlags: 0
@@ -2178,7 +2204,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &282616066
 GameObject:
   m_ObjectHideFlags: 0
@@ -2225,7 +2252,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &290850139
 GameObject:
   m_ObjectHideFlags: 0
@@ -2272,7 +2300,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &296287514
 GameObject:
   m_ObjectHideFlags: 0
@@ -2319,7 +2348,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &310802953
 GameObject:
   m_ObjectHideFlags: 0
@@ -2459,7 +2489,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 7.4, y: 0, z: -12.7092}
-  m_LocalScale: {x: 7.094408, y: 2.38, z: 4.91497}
+  m_LocalScale: {x: 7.094408, y: 12.33, z: 4.91497}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -2529,7 +2559,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &355663301
 GameObject:
   m_ObjectHideFlags: 0
@@ -2576,7 +2607,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &369876731
 GameObject:
   m_ObjectHideFlags: 0
@@ -2623,7 +2655,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &375988213
 GameObject:
   m_ObjectHideFlags: 0
@@ -2670,7 +2703,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &378866437
 GameObject:
   m_ObjectHideFlags: 0
@@ -2717,7 +2751,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2885,7 +2920,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &419137150
 GameObject:
   m_ObjectHideFlags: 0
@@ -2990,7 +3026,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 2.0403996, y: 0, z: 0.86080027}
-  m_LocalScale: {x: 7.094408, y: 2.38, z: 4.91497}
+  m_LocalScale: {x: 7.094408, y: 12.33, z: 4.91497}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -3060,7 +3096,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &426726669
 GameObject:
   m_ObjectHideFlags: 0
@@ -3107,7 +3144,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &430874177
 GameObject:
   m_ObjectHideFlags: 0
@@ -3154,7 +3192,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &438465145
 GameObject:
   m_ObjectHideFlags: 0
@@ -3201,7 +3240,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &448205990
 GameObject:
   m_ObjectHideFlags: 0
@@ -3248,7 +3288,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &453100132
 GameObject:
   m_ObjectHideFlags: 0
@@ -3295,7 +3336,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &463268120
 GameObject:
   m_ObjectHideFlags: 0
@@ -3342,7 +3384,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &496438136
 GameObject:
   m_ObjectHideFlags: 0
@@ -3425,7 +3468,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &512677926
 GameObject:
   m_ObjectHideFlags: 0
@@ -3530,7 +3574,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 53.261, y: 0, z: -26.3092}
-  m_LocalScale: {x: 5.955942, y: 2.38, z: 4.7595863}
+  m_LocalScale: {x: 5.955942, y: 12.33, z: 4.7595863}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -3600,7 +3644,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &543717361
 GameObject:
   m_ObjectHideFlags: 0
@@ -3647,7 +3692,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &578141900
 GameObject:
   m_ObjectHideFlags: 0
@@ -3694,7 +3740,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &586935351
 GameObject:
   m_ObjectHideFlags: 0
@@ -3799,7 +3846,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 39.509598, y: 0, z: -19.05}
-  m_LocalScale: {x: 14.667035, y: 2.38, z: 10.333154}
+  m_LocalScale: {x: 14.667035, y: 12.33, z: 10.333154}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -3869,7 +3916,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &598673273
 GameObject:
   m_ObjectHideFlags: 0
@@ -3974,7 +4022,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 12.4, y: 0, z: 1.2602}
-  m_LocalScale: {x: 7.094408, y: 2.38, z: 5.7741656}
+  m_LocalScale: {x: 7.094408, y: 12.33, z: 5.7741656}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -4044,7 +4092,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &632498171
 GameObject:
   m_ObjectHideFlags: 0
@@ -4188,7 +4237,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 66.1624, y: 0, z: 19.7978}
-  m_LocalScale: {x: 4.0592604, y: 2.38, z: 4.4307685}
+  m_LocalScale: {x: 4.0592604, y: 12.33, z: 4.4307685}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -4258,7 +4307,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &662094766
 GameObject:
   m_ObjectHideFlags: 0
@@ -4363,7 +4413,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 64.41, y: 0, z: -2.0591998}
-  m_LocalScale: {x: 4.0592604, y: 2.38, z: 4.4307685}
+  m_LocalScale: {x: 4.0592604, y: 12.33, z: 4.4307685}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -4433,7 +4483,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &676622413
 GameObject:
   m_ObjectHideFlags: 0
@@ -4538,7 +4589,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 49.15, y: 0, z: 16.244001}
-  m_LocalScale: {x: 8.148083, y: 2.38, z: 5.7741656}
+  m_LocalScale: {x: 8.148083, y: 12.33, z: 5.7741656}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -4666,7 +4717,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 54.823044, y: 2.38, z: 1.189932}
+  m_LocalScale: {x: 54.823044, y: 12.33, z: 1.189932}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -4736,7 +4787,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &701253749
 GameObject:
   m_ObjectHideFlags: 0
@@ -4783,7 +4835,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &706804126
 GameObject:
   m_ObjectHideFlags: 0
@@ -4830,7 +4883,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &746252849
 GameObject:
   m_ObjectHideFlags: 0
@@ -4877,7 +4931,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!4 &757519699 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
@@ -4987,7 +5042,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 36.4721, y: 0, z: 26.8908}
-  m_LocalScale: {x: 73.452034, y: 2.38, z: 1.189932}
+  m_LocalScale: {x: 73.452034, y: 12.33, z: 1.189932}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -5057,7 +5112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &787957081
 GameObject:
   m_ObjectHideFlags: 0
@@ -5104,7 +5160,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &798160126
 GameObject:
   m_ObjectHideFlags: 0
@@ -5151,7 +5208,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &798725484
 GameObject:
   m_ObjectHideFlags: 0
@@ -5277,7 +5335,7 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 3.5
-  m_Acceleration: 8
+  m_Acceleration: 200
   avoidancePriority: 50
   m_AngularSpeed: 200
   m_StoppingDistance: 0
@@ -5301,6 +5359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brackenFollowMoveSpeed: 10
+  brackenHideMoveSpeed: 30
   brackenRetreatMoveSpeed: 10
   brackenAgroMoveSpeed: 20
   distanceToKeepForFollow: 15
@@ -5319,6 +5378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05cb5aa174f320e4b977cd0d56440589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fovDotThreshold: 0.5
 --- !u!1 &801561176
 GameObject:
   m_ObjectHideFlags: 0
@@ -5365,7 +5425,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &802352807
 GameObject:
   m_ObjectHideFlags: 0
@@ -5470,7 +5531,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 72.869995, y: 0, z: -7.8592}
-  m_LocalScale: {x: 70.54082, y: 2.38, z: 1.189932}
+  m_LocalScale: {x: 70.54082, y: 12.33, z: 1.189932}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -5598,7 +5659,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 37, y: 0, z: 18.3608}
-  m_LocalScale: {x: 16.433653, y: 2.38, z: 5.7741656}
+  m_LocalScale: {x: 16.433653, y: 12.33, z: 5.7741656}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -5668,7 +5729,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &829865991
 GameObject:
   m_ObjectHideFlags: 0
@@ -5715,7 +5777,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -5811,7 +5874,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &848127805
 GameObject:
   m_ObjectHideFlags: 0
@@ -5894,7 +5958,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &911316221
 GameObject:
   m_ObjectHideFlags: 0
@@ -5984,7 +6049,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &944014642
 GameObject:
   m_ObjectHideFlags: 0
@@ -6031,7 +6097,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &960513525
 GameObject:
   m_ObjectHideFlags: 0
@@ -6136,7 +6203,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 36.5, y: 0, z: -0.8804002}
-  m_LocalScale: {x: 11.641781, y: 2.38, z: 5.7741656}
+  m_LocalScale: {x: 11.641781, y: 12.33, z: 5.7741656}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -6206,7 +6273,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &978046037
 GameObject:
   m_ObjectHideFlags: 0
@@ -6311,7 +6379,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 2.3000002, y: 0, z: -37.0612}
-  m_LocalScale: {x: 19.736816, y: 2.38, z: 5.7741656}
+  m_LocalScale: {x: 19.736816, y: 12.33, z: 5.7741656}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -6381,7 +6449,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &995602081
 GameObject:
   m_ObjectHideFlags: 0
@@ -6428,7 +6497,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1001095770
 GameObject:
   m_ObjectHideFlags: 0
@@ -6475,7 +6545,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1004254033
 GameObject:
   m_ObjectHideFlags: 0
@@ -6522,7 +6593,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1009232592
 GameObject:
   m_ObjectHideFlags: 0
@@ -6627,7 +6699,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 17.9, y: 0, z: -24.23}
-  m_LocalScale: {x: 16.433653, y: 2.38, z: 5.774166}
+  m_LocalScale: {x: 16.433653, y: 12.33, z: 5.774166}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -6697,7 +6769,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1010711823
 GameObject:
   m_ObjectHideFlags: 0
@@ -6744,7 +6817,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1028261771
 GameObject:
   m_ObjectHideFlags: 0
@@ -6791,7 +6865,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1076554547
 GameObject:
   m_ObjectHideFlags: 0
@@ -6838,7 +6913,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1109497213
 GameObject:
   m_ObjectHideFlags: 0
@@ -7084,7 +7160,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 12.5, y: 0, z: 18.590801}
-  m_LocalScale: {x: 16.433653, y: 2.38, z: 5.7741656}
+  m_LocalScale: {x: 16.433653, y: 12.33, z: 5.7741656}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -7154,7 +7230,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1129979968
 GameObject:
   m_ObjectHideFlags: 0
@@ -7259,7 +7336,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 24.6, y: 0, z: 11.2908}
-  m_LocalScale: {x: 16.433653, y: 2.38, z: 5.7741656}
+  m_LocalScale: {x: 16.433653, y: 12.33, z: 5.7741656}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -7329,7 +7406,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1142525823
 GameObject:
   m_ObjectHideFlags: 0
@@ -7376,7 +7454,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1163502254
 GameObject:
   m_ObjectHideFlags: 0
@@ -7423,7 +7502,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1173062131
 GameObject:
   m_ObjectHideFlags: 0
@@ -7470,7 +7550,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1178319858
 GameObject:
   m_ObjectHideFlags: 0
@@ -7517,7 +7598,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1186375001
 GameObject:
   m_ObjectHideFlags: 0
@@ -7622,7 +7704,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 23.7838, y: 0, z: -37.6535}
-  m_LocalScale: {x: 7.07315, y: 2.38, z: 8.591464}
+  m_LocalScale: {x: 7.07315, y: 12.33, z: 8.591464}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -7692,7 +7774,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1234322137
 GameObject:
   m_ObjectHideFlags: 0
@@ -7739,7 +7822,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1237535145
 GameObject:
   m_ObjectHideFlags: 0
@@ -7786,7 +7870,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1238707937
 GameObject:
   m_ObjectHideFlags: 0
@@ -7833,7 +7918,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1251447084
 GameObject:
   m_ObjectHideFlags: 0
@@ -7880,7 +7966,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1265058477
 GameObject:
   m_ObjectHideFlags: 0
@@ -7970,7 +8057,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1279895907
 GameObject:
   m_ObjectHideFlags: 0
@@ -8017,7 +8105,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1281230201
 GameObject:
   m_ObjectHideFlags: 0
@@ -8064,7 +8153,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1320244933
 GameObject:
   m_ObjectHideFlags: 0
@@ -8111,7 +8201,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1322640877
 GameObject:
   m_ObjectHideFlags: 0
@@ -8158,7 +8249,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1327759203
 GameObject:
   m_ObjectHideFlags: 0
@@ -8263,7 +8355,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 60.4959, y: 0, z: -16.5853}
-  m_LocalScale: {x: 12.625976, y: 2.38, z: 5.4858713}
+  m_LocalScale: {x: 12.625976, y: 12.33, z: 5.4858713}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -8333,7 +8425,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1346216134
 GameObject:
   m_ObjectHideFlags: 0
@@ -8416,7 +8509,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1361362118
 GameObject:
   m_ObjectHideFlags: 0
@@ -8463,7 +8557,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1372505873
 GameObject:
   m_ObjectHideFlags: 0
@@ -8510,7 +8605,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1388141200
 GameObject:
   m_ObjectHideFlags: 0
@@ -8557,7 +8653,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1398604240
 GameObject:
   m_ObjectHideFlags: 0
@@ -8662,6 +8759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fovDotThreshold: -0.8
   playerTransform: {fileID: 757519699}
+  minDistanceFromHidePoint: 20
 --- !u!1 &1433110164
 GameObject:
   m_ObjectHideFlags: 0
@@ -8708,7 +8806,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1433111479
 GameObject:
   m_ObjectHideFlags: 0
@@ -8755,7 +8854,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1495591528
 GameObject:
   m_ObjectHideFlags: 0
@@ -8802,7 +8902,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1502233180
 GameObject:
   m_ObjectHideFlags: 0
@@ -8849,7 +8950,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1504764228
 GameObject:
   m_ObjectHideFlags: 0
@@ -8896,7 +8998,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1512958809
 GameObject:
   m_ObjectHideFlags: 0
@@ -8943,7 +9046,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1559015393
 GameObject:
   m_ObjectHideFlags: 0
@@ -8990,7 +9094,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1001 &1560608079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9005,7 +9110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 38.45
+      value: 16.5
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9013,7 +9118,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 31.71
+      value: -2.3
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9214,7 +9319,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1596236433
 GameObject:
   m_ObjectHideFlags: 0
@@ -9261,7 +9367,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1606373720
 GameObject:
   m_ObjectHideFlags: 0
@@ -9308,7 +9415,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1638616839
 GameObject:
   m_ObjectHideFlags: 0
@@ -9355,7 +9463,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1666360454
 GameObject:
   m_ObjectHideFlags: 0
@@ -9402,7 +9511,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1668964809
 GameObject:
   m_ObjectHideFlags: 0
@@ -9507,7 +9617,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 21.2784, y: 0, z: -12.6092}
-  m_LocalScale: {x: 12.916851, y: 2.38, z: 5.774166}
+  m_LocalScale: {x: 12.916851, y: 12.33, z: 5.774166}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -9615,7 +9725,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1706674499
 GameObject:
   m_ObjectHideFlags: 0
@@ -9662,7 +9773,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1733807869
 GameObject:
   m_ObjectHideFlags: 0
@@ -9709,7 +9821,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1746021631
 GameObject:
   m_ObjectHideFlags: 0
@@ -9756,7 +9869,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1755053467
 GameObject:
   m_ObjectHideFlags: 0
@@ -9803,7 +9917,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1825179808
 GameObject:
   m_ObjectHideFlags: 0
@@ -9893,7 +10008,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1899476225
 GameObject:
   m_ObjectHideFlags: 0
@@ -9940,7 +10056,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1901637636
 GameObject:
   m_ObjectHideFlags: 0
@@ -9987,7 +10104,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1911804014
 GameObject:
   m_ObjectHideFlags: 0
@@ -10092,7 +10210,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 34.2, y: 0, z: -35.9234}
-  m_LocalScale: {x: 4.047, y: 2.38, z: 12.05143}
+  m_LocalScale: {x: 4.047, y: 12.33, z: 12.05143}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -10162,7 +10280,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1927119840
 GameObject:
   m_ObjectHideFlags: 0
@@ -10267,7 +10386,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 29.5285, y: 0, z: -46.4468}
-  m_LocalScale: {x: 55.84295, y: 2.38, z: 1.189932}
+  m_LocalScale: {x: 55.84295, y: 12.33, z: 1.189932}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -10337,7 +10456,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1933955433
 GameObject:
   m_ObjectHideFlags: 0
@@ -10442,7 +10562,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 43.620003, y: 0, z: -35.9234}
-  m_LocalScale: {x: 4.047, y: 2.38, z: 12.05143}
+  m_LocalScale: {x: 4.047, y: 12.33, z: 12.05143}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -10570,7 +10690,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 63.9644, y: 0, z: -30.5334}
-  m_LocalScale: {x: 5.9559426, y: 2.38, z: 10.984627}
+  m_LocalScale: {x: 5.9559426, y: 12.33, z: 10.984627}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -10640,7 +10760,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1972444252
 GameObject:
   m_ObjectHideFlags: 0
@@ -10687,7 +10808,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &1991251557
 GameObject:
   m_ObjectHideFlags: 0
@@ -10734,7 +10856,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &2007776804
 GameObject:
   m_ObjectHideFlags: 0
@@ -10781,7 +10904,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &2012374635
 GameObject:
   m_ObjectHideFlags: 0
@@ -10828,7 +10952,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &2013921134
 GameObject:
   m_ObjectHideFlags: 0
@@ -10933,7 +11058,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 12.7, y: 0, z: -33.9092}
-  m_LocalScale: {x: 16.433653, y: 2.38, z: 5.7741656}
+  m_LocalScale: {x: 16.433653, y: 12.33, z: 5.7741656}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560660492}
@@ -11003,7 +11128,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &2026110507
 GameObject:
   m_ObjectHideFlags: 0
@@ -11158,7 +11284,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &2048315331
 GameObject:
   m_ObjectHideFlags: 0
@@ -11205,7 +11332,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &2050761557 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4459864851310106424, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
@@ -11301,7 +11429,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &2071115928
 GameObject:
   m_ObjectHideFlags: 0
@@ -11348,7 +11477,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1 &2124007776
 GameObject:
   m_ObjectHideFlags: 0
@@ -11430,7 +11560,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsInsidePlayerFOV: 0
   IsInsidePlayerLOS: 0
-  hidePossibilityPercentage: 0
+  IsInsidePlayerDistance: 0
+  HidePossibilityPercentage: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

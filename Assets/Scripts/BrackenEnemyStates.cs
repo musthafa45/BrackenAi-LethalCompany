@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(BrackenBrain))]
-public class BrackenEnemy : MonoBehaviour
+public class BrackenEnemyStates : MonoBehaviour
 {
     public enum BrackenStates
     {
@@ -30,22 +30,33 @@ public class BrackenEnemy : MonoBehaviour
     private Vector3 brackenSpawnPosition; // Spawning Position At Start
 
     private HidePoint hidePoint;
+    private BrackenBrain brackenBrain;
+
+    public void SetState(BrackenStates newState)
+    {
+        this.brackenStates = newState;
+    }
+
+    public BrackenStates GetState()
+    {
+        return brackenStates;
+    }
+    public Transform GetTarget()
+    {
+        return target;
+    }
+
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
-        target = GetNearestTarget();
+        brackenBrain = GetComponent<BrackenBrain>();
+
+        target = brackenBrain.GetNearestTarget();
     }
 
     private void Start()
     {
         brackenSpawnPosition = transform.position;
-    }
-
-    private Transform GetNearestTarget()
-    {
-        FirstPersonController[] playerTransforms = FindObjectsOfType<FirstPersonController>();
-        var nearestPlayer = playerTransforms.OrderBy(tr => Vector3.Distance(transform.position, tr.transform.position)).FirstOrDefault();
-        return nearestPlayer.transform;
     }
 
     private void Update()
@@ -124,13 +135,4 @@ public class BrackenEnemy : MonoBehaviour
         return Vector3.Distance(pointA, pointB);
     }
 
-    private float GetDotBetWeen(Transform target)
-    {
-        Vector3 dir = target.position - transform.position;
-        return Vector3.Dot(target.forward, dir.normalized);
-    }
-    private bool IsPlayerBehind(float dotValue)
-    {
-        return dotValue > -0.5f;
-    }
 }
